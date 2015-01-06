@@ -1,0 +1,98 @@
+
+/*
+ * Global add-ons
+*/
+
+.navbar-inverse {
+    background-color:#000000;
+    border:#000000;
+}
+
+.navbar {
+    border-radius:0px;
+    margin-bottom: 0px;
+    padding:10px 0px 10px 0px;
+}
+
+/*
+ * Sidebar
+*/
+
+/* Sidebar navigation */
+#nav-sidebar {
+    margin-top:10px;
+    padding:10px;
+    float:left;
+}
+
+#nav-sidebar li a {
+    padding: 5px 0px 5px 10px;
+}
+
+#nav-sidebar h4 {
+    margin-top:15px;
+    margin-bottom:3px;
+}
+
+#nav-sidebar > .active > a,
+#nav-sidebar > .active > a:hover,
+#nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+
+
+/*
+ * Main content
+*/
+#table-content {
+    float:left;
+    margin-left:0px;
+}
+
+#table-content h1 {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+/*
+ * Pl upload
+*/
+.plupload_filelist {
+    height: 195px !important;
+}
+
+#waiting_process{ 
+
+    background-color: black;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    display:none;
+    width: 100%;
+    z-index: 9999;}
+#waiting_process_text {   
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    left: 47%;
+    position: relative;
+    top: 50%;
+    display:none;
+    z-index: 99999;
+}
+#waiting_process_image {   
+    background-image: url("../images/icon_loading.gif");
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    left: 50%;
+    position: relative;
+    top: 38%;
+    height:47px;
+    width:47px;
+    display:none;
+    z-index: 999999;
+}
